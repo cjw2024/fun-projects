@@ -1,12 +1,13 @@
+p {
+    padding-bottom: 5%;
+}
+
 .Tabs {
     min-width: 100%;
     min-height: 100%; 
-    width: 100%;
-    height: 100%;
     background: #053742;
     padding: 2rem 1rem;
     color: #E8F0F2;
-    border-radius: 2rem;
     display: grid;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .react-tabs__tab-panel--selected {
-    display: flex;
+    display: grid;
     font-size: 2rem;
     text-align: center;
     place-content: center;
