@@ -8,7 +8,7 @@ const Card = ({body, btn, title, badge, image, indicator, subtitle} : CardInterf
         <article className={`stack-lg ${styles.card}`}>
             {indicator && <small className={styles.indicator}>{indicator}</small>}
             {badge && <Badge text={badge.text} filled={badge.filled} />}
-            {image && <img src={image} alt="Random Image" className={styles.image}/>}
+            {image && <img src={image} alt="something here" className={styles.image}/>}
             <div className="stack-sm">
                 <h3 className={styles.title}>{title}</h3>
                 {subtitle && <small className={styles.subtitle}>{subtitle}</small>}
