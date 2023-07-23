@@ -3,8 +3,7 @@
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { CpuChipIcon } from "@heroicons/react/24/solid";
-import { GlobeEuropeAfricaIcon } from "@heroicons/react/24/solid"
+import { CpuChipIcon, GlobeEuropeAfricaIcon } from "@heroicons/react/24/solid";
 
 const ThirdTab = () => {
   return (

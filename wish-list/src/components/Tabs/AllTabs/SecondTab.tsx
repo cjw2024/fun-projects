@@ -3,7 +3,7 @@
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { BriefcaseIcon } from "@heroicons/react/24/solid";
+import { BriefcaseIcon, StopCircleIcon } from "@heroicons/react/24/solid";
 
 const SecondTab = () => {
   return (
@@ -27,6 +27,24 @@ const SecondTab = () => {
             href: "https://floyd.one/collections/floyd-travel-cases/products/floyd-check-in?variant=45012081115448",
             filled: true,
             icon: <BriefcaseIcon />
+          }}
+        />
+        <Card
+          body="Green wheels for the suit case so that it can match my style"
+          title="Floyd Wheel Set" 
+          indicator="55 euros"
+          subtitle="Racing Green"
+          image="/FloydWheels.jpg"
+          badge={{
+            text: "Low Priority",
+            filled: false
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://floyd.one/collections/floyd-wheel-sets/products/floyd-wheel-set?variant=45012081606968",
+            filled: true,
+            icon: <StopCircleIcon />
           }}
         />
       </div>

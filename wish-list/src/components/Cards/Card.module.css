@@ -24,7 +24,7 @@
 
 .body {
     max-width: var(--content);
-    min-height: 25px;
+    min-height: 50px;
     color: hsl(var(--text) / .5);
     font-size: var(--fs-200);
     font-weight: 300;
