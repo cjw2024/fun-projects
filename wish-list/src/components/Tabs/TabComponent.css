@@ -1,5 +1,6 @@
-p {
-    padding-bottom: 5%;
+h1 {
+    padding: 50px;
+    font-size: 3.5rem;
 }
 
 .Tabs {
@@ -9,6 +10,7 @@ p {
     padding: 2rem 1rem;
     color: #E8F0F2;
     display: grid;
+    place-items: center;
 }
 
 .react-tabs {

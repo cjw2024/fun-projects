@@ -7,6 +7,7 @@ import './TabComponent.css';
 const TabComponent = () => {
     return (
         <Tabs className="Tabs">
+            <h1>Caden's Wishlist</h1>
             <TabList>
                 <Tab>Birthday</Tab>
                 <Tab>Christmas</Tab>
