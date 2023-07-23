@@ -28,7 +28,6 @@
   --round-md: 10px;
   --round-lg: 15px;
   --round-full: 100vmax;
-
 }
 
 body {
@@ -48,6 +47,11 @@ body {
   -webkit-text-size-adjust: 100%;
   background-color: hsl(var(--bkg));
   color: hsl(var(--text));
+}
+
+/* hide scroll bar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 h1,

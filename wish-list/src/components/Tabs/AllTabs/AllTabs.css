@@ -1,6 +1,11 @@
-.FirstTab p,
-.SecondTab p,
-.ThirdTab p {
+.FirstTab p.header,
+.SecondTab p.header,
+.ThirdTab p.header {
     font-size: 2rem;
     text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
 }

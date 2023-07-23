@@ -1,33 +1,54 @@
-// ThirdTab.js
+// ThirdTab.tsx
 
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { BeakerIcon } from "@heroicons/react/24/solid";
+import { CpuChipIcon } from "@heroicons/react/24/solid";
+import { GlobeEuropeAfricaIcon } from "@heroicons/react/24/solid"
 
 const ThirdTab = () => {
   return (
     <div className="ThirdTab">
-      <p>Graduation List</p>
+      <p className="header">Graduation List</p>
       {/* third  tab content will go here */}
-      <Card
-        body="body"
-        title="title" 
-        indicator="indicator"
-        subtitle="subtitle"
-        image="http://source.unsplash.com/random"
-        badge={{
-          text: "Badge",
-          filled: false
-        }}
-        btn={{
-          text: "Link",
-          type: "primary",
-          href: "#",
-          filled: true,
-          icon: <BeakerIcon />
-        }}
-      />
+      <div className="cards">
+        <Card
+          body="12-core CPU, 19-core GPU, 16-core Neural Engine, 16GB unified memory, 1TB SSD storage"
+          title="Mac Book Pro" 
+          indicator="$2699"
+          subtitle="16 in. M2 Pro Chip"
+          image="/MacBookPro.jpg"
+          badge={{
+            text: "High Priority",
+            filled: true
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-apple-m2-pro-with-12-core-cpu-and-19-core-gpu-1tb",
+            filled: true,
+            icon: <CpuChipIcon />
+          }}
+        />
+        <Card
+          title="South Africa" 
+          indicator=">$2000"
+          subtitle="Plane Tickets"
+          body="Flight to visit Angie's family and travel before I have to become a real adult"
+          image="/SouthAfrica.jpg"
+          badge={{
+            text: "High Priority",
+            filled: true
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://www.google.com/travel/flights?bih=753&biw=1536&rlz=1C1CHFX_enUS760US762&hl=en&source=flun&uitype=cuAR&gl=us&curr=USD&tfs=CAEQAhopEgoyMDIzLTA4LTA4ag0IAhIJL20vMDJfMjg2cgwIAhIIL20vMDF5ajIaKRIKMjAyMy0wOC0xMmoMCAISCC9tLzAxeWoycg0IAhIJL20vMDJfMjg2emhDalJJVW5vMFFWOUZSa2hWTlc5QlMxRk5VV2RDUnkwdExTMHRMUzB0TFMxNWJHTnZORUZCUVVGQlIxTTVXVGxuUW5BMmNqaEJFZ0V3R2dzSXpLOE1FQUlhQTFWVFJEZ0RjTXl2REE9PbIBBBgBIAE&sa=X&ved=2ahUKEwi06PnlraWAAxXDg4kEHXhUAMcQ3RkoAHoECA8QBQ",
+            filled: true,
+            icon: <GlobeEuropeAfricaIcon />
+          }}
+        />
+      </div>
     </div>
   );
 };

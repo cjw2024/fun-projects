@@ -9,10 +9,25 @@
     border-left: .1em solid white;
     max-width: 25%;
     max-height: 100%;
+    margin: 50px;
+}
+
+.title {
+    color: hsl(var(--text) / .6);
+    font-weight: 600;
+}
+
+.subtitle {
+    color: hsl(var(--text) / .4);
+    font-weight: 500;
 }
 
 .body {
     max-width: var(--content);
+    min-height: 25px;
+    color: hsl(var(--text) / .5);
+    font-size: var(--fs-200);
+    font-weight: 300;
 }
 
 .image{
