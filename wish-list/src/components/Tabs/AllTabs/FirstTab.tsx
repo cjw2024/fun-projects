@@ -10,6 +10,7 @@ const FirstTab = () => {
   return (
     <div className="FirstTab">
       <p className="header">Birthday List</p>
+      {/* First tab content will go here */}
       <div className="cards">
         <Card
           title="Playstation 5"
@@ -66,7 +67,6 @@ const FirstTab = () => {
           }}
         />
       </div>
-      {/* First tab content will go here */}
     </div>
   );
 };
