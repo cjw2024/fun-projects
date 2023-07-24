@@ -3,7 +3,7 @@
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { BriefcaseIcon, StopCircleIcon } from "@heroicons/react/24/solid";
+import { BriefcaseIcon, StopCircleIcon, SpeakerWaveIcon, MoonIcon, HomeIcon, MapIcon } from "@heroicons/react/24/solid";
 
 const SecondTab = () => {
   return (
@@ -45,6 +45,80 @@ const SecondTab = () => {
             href: "https://floyd.one/collections/floyd-wheel-sets/products/floyd-wheel-set?variant=45012081606968",
             filled: true,
             icon: <StopCircleIcon />
+          }}
+        />
+        <Card
+          body=""
+          title="AirPods Max" 
+          indicator="$549"
+          subtitle="Space Gray"
+          image="/AirpodMax.png"
+          badge={{
+            text: "Low Priority",
+            filled: false
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://www.apple.com/shop/buy-airpods/airpods-max/space-gray",
+            filled: true,
+            icon: <SpeakerWaveIcon />
+          }}
+        />
+      </div>
+      <div className="cards">
+        <Card
+          body="Build your own bedding bundle"
+          title="Linen Bedding" 
+          indicator="$488"
+          subtitle="Bed Threads"
+          image="/LinenBedding.jpg"
+          badge={{
+            text: "Low Priority",
+            filled: false
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://bedthreads.com/products/the-bed-threads-build-your-own-bundle",
+            filled: true,
+            icon: <MoonIcon />
+          }}
+        />
+        <Card
+          body="Damascus Carbon Steel"
+          title="Japanese Knife" 
+          indicator="$188"
+          subtitle="Santoku"
+          image="/Knife.jpg"
+          badge={{
+            text: "Low Priority",
+            filled: false
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://knifewear.com/products/hatsukokoro-kumokage-aogami-kurouchi-damascus-bunka-180mm?variant=41675655839918",
+            filled: true,
+            icon: <HomeIcon />
+          }}
+        />
+        <Card
+          body="Herschel"
+          title="Bowen Duffle Tech" 
+          indicator="$150"
+          subtitle="Black"
+          image="/HerschelDuffle.jpg"
+          badge={{
+            text: "Low Priority",
+            filled: false
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://herschel.com/shop/duffles/bowen-duffle-tech?exact=1&v=11293-00001-OS",
+            filled: true,
+            icon: <MapIcon />
           }}
         />
       </div>

@@ -3,7 +3,7 @@
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { CpuChipIcon, GlobeEuropeAfricaIcon } from "@heroicons/react/24/solid";
+import { CpuChipIcon, GlobeEuropeAfricaIcon, PhotoIcon } from "@heroicons/react/24/solid";
 
 const ThirdTab = () => {
   return (
@@ -45,6 +45,24 @@ const ThirdTab = () => {
             href: "https://www.google.com/travel/flights?bih=753&biw=1536&rlz=1C1CHFX_enUS760US762&hl=en&source=flun&uitype=cuAR&gl=us&curr=USD&tfs=CAEQAhopEgoyMDIzLTA4LTA4ag0IAhIJL20vMDJfMjg2cgwIAhIIL20vMDF5ajIaKRIKMjAyMy0wOC0xMmoMCAISCC9tLzAxeWoycg0IAhIJL20vMDJfMjg2emhDalJJVW5vMFFWOUZSa2hWTlc5QlMxRk5VV2RDUnkwdExTMHRMUzB0TFMxNWJHTnZORUZCUVVGQlIxTTVXVGxuUW5BMmNqaEJFZ0V3R2dzSXpLOE1FQUlhQTFWVFJEZ0RjTXl2REE9PbIBBBgBIAE&sa=X&ved=2ahUKEwi06PnlraWAAxXDg4kEHXhUAMcQ3RkoAHoECA8QBQ",
             filled: true,
             icon: <GlobeEuropeAfricaIcon />
+          }}
+        />
+        <Card
+          title="Money for trip" 
+          indicator="any $"
+          subtitle="Europe"
+          body="I want to travel before I grow up"
+          image="/Europe.jpg"
+          badge={{
+            text: "High Priority",
+            filled: true
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://www.google.com/search?q=Dollars+to+Euros&source=lmns&bih=753&biw=1536&rlz=1C1CHFX_enUS760US762&hl=en&sa=X&ved=2ahUKEwim18LSvqiAAxVhEGIAHRpqBLUQ0pQJKAB6BAgBEAI",
+            filled: true,
+            icon: <PhotoIcon />
           }}
         />
       </div>

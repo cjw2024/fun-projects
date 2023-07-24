@@ -5,7 +5,6 @@ import './AllTabs.css';
 import Card from "../../Cards/Card";
 import { BugAntIcon, ShoppingCartIcon, ShoppingBagIcon } from "@heroicons/react/24/solid";
 
-
 const FirstTab = () => {
   return (
     <div className="FirstTab">
