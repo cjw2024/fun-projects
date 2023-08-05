@@ -3,7 +3,7 @@
 import React from "react";
 import './AllTabs.css';
 import Card from "../../Cards/Card";
-import { BugAntIcon, ShoppingCartIcon, ShoppingBagIcon } from "@heroicons/react/24/solid";
+import { FaceSmileIcon, ShoppingCartIcon, ShoppingBagIcon } from "@heroicons/react/24/solid";
 
 const FirstTab = () => {
   return (
@@ -12,21 +12,21 @@ const FirstTab = () => {
       {/* First tab content will go here */}
       <div className="cards">
         <Card
-          title="Playstation 5"
-          subtitle="Spider-Man Edition"
-          body="Pre-order starts on July 28 and is expected to sell out quickly"
-          indicator="$499"
-          image="/spiderman_ps5.jpg"
+          title="Lulu Undies"
+          subtitle="Size L"
+          body="Built to Move 7in and Always in Motion 7in"
+          indicator="$28"
+          image="/lulu.jpg"
           badge={{
-            text: "Low Priority",
-            filled: false
+            text: "High Priority",
+            filled: true
           }}
           btn={{
             text: "Link",
             type: "primary",
-            href: "https://blog.playstation.com/2023/07/20/first-look-ps5-console-marvels-spider-man-2-limited-edition-bundle/",
+            href: "https://shop.lululemon.com/c/men-underwear/_/N-8rv",
             filled: true,
-            icon: <BugAntIcon />
+            icon: <FaceSmileIcon />
           }}
         />
         <Card
@@ -61,6 +61,26 @@ const FirstTab = () => {
             text: "Link",
             type: "primary",
             href: "https://www.aimeleondore.com/products/ald-taverna-loafers-3",
+            filled: true,
+            icon: <ShoppingBagIcon />
+          }}
+        />
+      </div>
+      <div className="cards">
+        <Card
+          title="Airism T-Shirt"
+          subtitle="Uniqlo U"
+          body="Size XL, white and nuetrals"
+          indicator="$19.90"
+          image="/Uniqlo.jpg"
+          badge={{
+            text: "high Priority",
+            filled: true
+          }}
+          btn={{
+            text: "Link",
+            type: "primary",
+            href: "https://www.uniqlo.com/us/en/products/E455359-000/00?colorDisplayCode=00&sizeDisplayCode=006",
             filled: true,
             icon: <ShoppingBagIcon />
           }}
