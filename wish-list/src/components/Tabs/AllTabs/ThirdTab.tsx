@@ -8,8 +8,6 @@ import { CpuChipIcon, GlobeEuropeAfricaIcon, PhotoIcon } from "@heroicons/react/
 const ThirdTab = () => {
   return (
     <div className="ThirdTab">
-      <p className="header">Graduation List</p>
-      {/* third  tab content will go here */}
       <div className="cards">
         <Card
           body="12-core CPU, 19-core GPU, 16-core Neural Engine, 16GB unified memory, 1TB SSD storage"

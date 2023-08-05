@@ -17,8 +17,9 @@
   --bkg: 248 80% 98%;
   --muted: 248 15.7% 80%;
   --text: 246 76% 4.9%;
-  --accent: 245 75% 54.5%;
-  --accent2: 40 98.2% 43.7%;
+  --accent3: 245 75% 54.5%;
+  --accent2: 4 60% 44%;
+  --accent: 29 50% 33%;
 
   --space-sm: clamp(0.4rem, 1.5vw, 0.8rem);
   --space-md: clamp(1rem, 2.5vw, 1.4rem);

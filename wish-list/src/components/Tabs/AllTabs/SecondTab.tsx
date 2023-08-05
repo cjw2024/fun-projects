@@ -8,8 +8,6 @@ import { BriefcaseIcon, StopCircleIcon, SpeakerWaveIcon, MoonIcon, HomeIcon, Map
 const SecondTab = () => {
   return (
     <div className="SecondTab">
-      <p className="header">Christmas List</p>
-      {/* Second  tab content will go here */}
       <div className="cards">
         <Card
           body="High Quality Suit Case I can use for the rest of my life"

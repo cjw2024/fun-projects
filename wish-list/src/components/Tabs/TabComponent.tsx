@@ -22,6 +22,7 @@ const TabComponent = () => {
             <TabPanel>
                 <ThirdTab />
             </TabPanel>
+            <p id="footer">created by Caden Wright 2023 &copy;</p>
         </Tabs>
     );
 };

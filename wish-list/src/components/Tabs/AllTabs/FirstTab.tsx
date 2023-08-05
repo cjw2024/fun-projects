@@ -8,8 +8,6 @@ import { FaceSmileIcon, ShoppingCartIcon, ShoppingBagIcon } from "@heroicons/rea
 const FirstTab = () => {
   return (
     <div className="FirstTab">
-      <p className="header">Birthday List</p>
-      {/* First tab content will go here */}
       <div className="cards">
         <Card
           title="Lulu Undies"
